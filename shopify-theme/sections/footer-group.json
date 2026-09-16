@@ -1,0 +1,112 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "type": "footer",
+  "name": "t:sections.footer-group.name",
+  "sections": {
+    "footer-promotions": {
+      "type": "footer-promotions",
+      "blocks": {
+        "footer-promotions-0": {
+          "type": "promotion",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/IMG_9543.jpg",
+            "image_mask": "none",
+            "title": "La soiree de lancement",
+            "text": "<p>Pour célébrer la première boutique de la marque, plus de 200 personnes sont venus le 26 octobre. Merci à vous!</p>",
+            "button_label": "Photos de la soirée",
+            "button_link": "shopify://pages/creation-dun-nouveau-drapeau-parisien"
+          }
+        },
+        "footer-promotions-1": {
+          "type": "promotion",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/Carre_ISL_flag-01.png",
+            "image_mask": "none",
+            "title": "creation d'un nouveau drapeau parisien!",
+            "text": "<p>Les habitants de l'Ile Saint Louis sont invités à voter jusqu'au 30 novembre. </p>",
+            "button_label": "Lire",
+            "button_link": "shopify://pages/creation-dun-nouveau-drapeau-parisien"
+          }
+        },
+        "footer-promotions-2": {
+          "type": "promotion",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/IMG_9332_df2ab602-d558-421a-b1e2-6865dc67dfbc.jpg",
+            "image_mask": "none",
+            "title": "L'événement du drapeau de l'île st louis",
+            "text": "<p>La révélation du drapeau de l'Il Saint Louis aura lieu le 30 novembre. </p>",
+            "button_label": "toutes les informations",
+            "button_link": "shopify://pages/creation-dun-nouveau-drapeau-parisien"
+          }
+        }
+      },
+      "block_order": [
+        "footer-promotions-0",
+        "footer-promotions-1",
+        "footer-promotions-2"
+      ],
+      "disabled": true,
+      "settings": {
+        "hide_homepage": false
+      }
+    },
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "footer-1": {
+          "type": "menu",
+          "settings": {
+            "show_footer_title": false,
+            "menu": "footer-company",
+            "container_width": 45
+          }
+        },
+        "footer-2": {
+          "type": "newsletter",
+          "settings": {
+            "show_footer_title": true,
+            "title": "Les prochains drapeaux",
+            "text": "<p>Nouveaux drapeaux, nouvelles villes Escales. Vous saurez avant tout le monde.</p>",
+            "container_width": 35
+          }
+        },
+        "footer-0": {
+          "type": "logo_social",
+          "settings": {
+            "logo": "shopify://shop_images/KOMOREBIIII-ezgif.com-reverse.gif",
+            "desktop_logo_height": 120,
+            "container_width": 20
+          }
+        }
+      },
+      "block_order": [
+        "footer-1",
+        "footer-2",
+        "footer-0"
+      ],
+      "settings": {
+        "show_currency_selector": true,
+        "show_currency_flags": true,
+        "show_locale_selector": true,
+        "show_payment_icons": true,
+        "show_copyright": true,
+        "copyright_text": ""
+      }
+    }
+  },
+  "order": [
+    "footer-promotions",
+    "footer"
+  ]
+}
